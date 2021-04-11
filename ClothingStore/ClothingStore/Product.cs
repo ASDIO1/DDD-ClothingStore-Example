@@ -6,6 +6,7 @@ namespace ClothingStore
 {
     abstract class Product
     {
+        public string Name { get; set; }
         public int Price { get; set; }
         public string Brand { get; set; }
         public string Color { get; set; }
@@ -14,6 +15,6 @@ namespace ClothingStore
         {
             // Sells the product
         }
-        abstract public void TryOnProduct(); //Every product is tried on differently 
+        abstract public void TryOn(); //Every product is tried on differently 
     }
 }

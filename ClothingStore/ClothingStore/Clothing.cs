@@ -16,7 +16,7 @@ namespace ClothingStore
     {
         public ClothingSize Size { get; set; }
 
-        public override void TryOnProduct()
+        public override void TryOn()
         {
             Console.WriteLine("Customer tries on the clothing");
         }
