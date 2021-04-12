@@ -6,7 +6,7 @@ namespace ClothingStore
 {
     class Accesorie : Product
     {
-        //public string k { get; set; }
+        public string Material { get; set; }
 
         public override void TryOn()
         {
