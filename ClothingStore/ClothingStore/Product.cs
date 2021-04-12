@@ -11,10 +11,7 @@ namespace ClothingStore
         public string Brand { get; set; }
         public string Color { get; set; }
 
-        public void sellProduct()
-        {
-            // Sells the product
-        }
+
         abstract public void TryOn(); //Every product is tried on differently 
     }
 }
