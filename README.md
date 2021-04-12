@@ -21,20 +21,46 @@ This program is about a regular clothing store where the core products are cloth
 
 ### 1. Minimum of 5 classes
 
-x
+The classes in the program are:
+-  Product
+-    Clothing
+-      Tshirt
+-      Shirt
+-    Accesorie
+-      Necklace
+-    IButtonUp interface
 
 ### 2. Minimum of 1 abstract class
 
-x
+Product is the abstract class in this program.
+It has the main properties of a clothing store product and the "TryOn" abstract method that is abstract because it douesnt make sense to talk
+about trying on a product without specifying the product.
+
+Clothing and Accesorie are the child classes of Product. They have to implement the abstract method "TryOn". They also have their own specific properties
+aside of having the Product properties that are inherited.
+
+Tshirt and Shirt are the child classes of Clothing. They inherit the properties  from Clothing and they are able to implement their own version of the
+"TryOn" abstract method. They also have their unique properties.
+
+Necklace is the child class of Accesorie and it has its own property and its own implementation for the "TryOn" abstract method.
+
+IButtonUp is an interface used by the classes that refer to products that have buttons and they need to be buttoned up.
+The classes that use this interface are the Shirt and Necklace.
+
 
 ### 3. Implement Liskov principle
 
-x
+As explained in the previous point, "TryOn" is an abstract method that can be implemented differently in each Class that inherits from THE Product class.
+So in the "program.cs" file I have created a list of products and added to it an object of each class (Clothing, Shirt, Tshirt, Accesorie and Necklace).
+Then with a for loop each product un the products list uses the "TryOn" method in its own way.
+(The Shirt and Necklace classes use the IButtonUp method inside the "TryOn" method implementation each class has)
 
 ### 4. UML diagram
 
-x
+
 
 ### 5. Code standards
 
-x
+I have followed the common code standards and since I have used C#, I used camel case writting.
+I have also started every method and class name with an uppercase letter as it is usal in C# programming.
+
