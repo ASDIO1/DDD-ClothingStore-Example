@@ -60,12 +60,12 @@ namespace ClothingStore
             products.Add(someAccesorie);
             products.Add(goldenNecklace);
 
-            //Polimorfism example
-            var index = 0;
+            //Liskovs Polimorfism example
+            var index = 1;
             foreach (Product product in products)
             {
-                Console.WriteLine($"----------PRODUCT #{index} ----------");
-                product.TryOn();
+                Console.WriteLine($"----------PRODUCT #{index} ({product.Name})----------");
+                product.TryOn();//Each class implements this method differently
                 Console.WriteLine();
                 index++;
             }
