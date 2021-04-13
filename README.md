@@ -46,7 +46,7 @@ Tshirt and Shirt are the child classes of Clothing. They inherit the properties 
 Necklace is the child class of Accesorie and it has its own property and its own implementation for the "TryOn" abstract method.
 
 IButtonUp is an interface used by the classes that refer to products that have buttons and they need to be buttoned up.
-The classes that use this interface are the Shirt and Necklace.
+The classes that use this interface are the Shirt and Necklace classes.
 
 
 ### 3. Implement Liskovs polimorfism principle
