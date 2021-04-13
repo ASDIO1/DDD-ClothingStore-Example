@@ -71,5 +71,7 @@ I have also started every method and class name with an uppercase letter as it i
 
 To run this project its  needed to have a code editor for C#.Net Core3 like Visual Studio 2019.
 
-Then just run the "program.cs" file or run the entire project to see the results from the Liskovs polimorfism principle example made in the "program.cs" file.
+Open the solution ".sln"file.
+
+And then just run the "program.cs" file or run the entire project to see the results from the Liskovs polimorfism principle example made in the "program.cs" file.
 
