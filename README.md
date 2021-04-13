@@ -60,7 +60,7 @@ The code is very simple and should be self explanatory on how each class impleme
 
 ### 4. UML diagram
 
-
+The UML class diagram for this project was added as a ".jpg" file.
 
 ### 5. Code standards
 
